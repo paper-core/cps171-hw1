@@ -1,0 +1,39 @@
+Write a program to compute the time it will take to walking  mow a rectangular lawn with a rectangular house on it.  
+The program prompts the user to input 5 values which represent:
+the length of the lawn,
+the width of the lawn,
+the length of the house,
+the width of the house (in feet),
+the speed that you walk (in miles per hour). 
+ 
+Echo this input and then compute the area to be mown (in square feet) by subtracting the area of the house from the total area of the lawn. Print out this value.
+
+Next, calculate your rate of mowing in square feet per minute, assuming that the width of the mower is 18 inches. Print this value.
+
+Note: Use these conversion factors:  1 mile = 5280 feet, 1 foot = 12 inches and 1 hour = 60 minutes.
+Finally, calculate the time in minutes it will take to mow the lawn and print this out. You may leave this as a floating-point value.
+You are to run the program 2 times using the following input values:
+1) 200              50        100      25        1.5
+2) 174.3           70.0    92.5     30.25   2.1
+Note that you must use the correct mathematical expressions in your program to do the conversions of the different units.
+Please turn in the program and the outputs of running the program 2 times as directed. Be sure to use good style, appropriate comments and make use of constants.
+ 
+ 
+Sample output for first set of data
+Your output format should look similar in style to the one below. You do not have to copy this exactly.
+ 
+Mowing the lawn by (your name)
+ 
+Enter five numbers separated by blanks
+They represent the length and width of lawn in feet,
+the length and width of the house in feet
+and the walking speed in mph
+200.0 50.0 100.0 25.0 1.5
+ 
+The lawn is 200 by 50 feet
+The house is 100 by 25 feet
+Your walking speed is 1.5 mph
+ 
+The area to mow is 7500 square feet
+You can mow 198 sq. ft. per min
+Time to mow the lawn is 37.8788 minutes
